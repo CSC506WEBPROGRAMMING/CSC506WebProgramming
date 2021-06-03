@@ -59,6 +59,13 @@ try
          // request.getRequestDispatcher("/login.jsp").forward(request, response);
             }
 	 }
+	 catch (Throwable theException)
+	 {
+	      System.out.println(theException);
+	 }
+
+	 }
+
 
 }
 
