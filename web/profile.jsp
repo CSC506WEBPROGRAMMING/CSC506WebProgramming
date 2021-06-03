@@ -228,7 +228,46 @@
                           
                       </script>
 
-                        
+                         <%
+        if(request.getParameter("submit") !=null){
+            
+         
+            String name = request.getParameter("name");
+            String email = request.getParameter("mail");
+            String phone = request.getParameter("phone");
+            String address = request.getParameter("address");
+            String password = request.getParameter("password");
+          
+            
+            Connection con;
+            PreparedStatement pst;
+            ResultSet rs;
+            
+            Class.forName("com.mysql.jdbc.Driver");
+            con = DriverManager.getConnection("jdbc:mysql://localhost/csc506web","root","");
+            pst = con.prepareStatement("INSERT INTO `csc506web`.`register` ( `name`, `email`, `phone`,  `address`, `password` ) VALUES ( ?, ?, ?, ?, ?)  ON DUPLICATE KEY UPDATE `name` = VALUES (name), `email` = VALUES (email), `phone` = VALUES (phone), `address` = VALUES (address), `password` = VALUES (password);");
+            
+             pst.setString(1, name);
+             pst.setString(2, email);
+             pst.setString(3, phone);
+             pst.setString(4, address);
+             pst.setString(5, password);
+        
+            
+            
+            
+            pst.executeUpdate();
+            
+            %>
+           <script>
+               alert("Profile Updated");
+           </script>
+        
+            <%
+        }
+    
+    
+    %>
       
                                                     
                                                     
