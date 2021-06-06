@@ -231,7 +231,8 @@
                          <%
         if(request.getParameter("submit") !=null){
             
-         
+	<!-- //Updating the user profile, The user may feel to update or to make change to his/her profile.>         
+
             String name = request.getParameter("name");
             String email = request.getParameter("mail");
             String phone = request.getParameter("phone");
