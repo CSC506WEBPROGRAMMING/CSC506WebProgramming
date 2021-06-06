@@ -72,7 +72,8 @@
             <!-- login  -->
             <div class="modal-body my-5 pt-4">
                 <h3 class="title-w3 mb-5 text-center text-wh font-weight-bold">Login Now</h3>
-               
+               		
+		<!-- A verification message after authentication for user inforamtion.. this message will prompt out when the user  input wrong login details.-->
                 <div style = "color: #FFB6C1;"> <center> <b> ${ errorMessage } </b></center> </div>
                 
                 <form action="LoginServlet" >
