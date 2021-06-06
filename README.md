@@ -40,3 +40,7 @@ this means when hello url is accessed our Servlet file will be executed.
 15. Click on the link created, to open your Servlet.
 
 16. Hurray! Our First Servlet class is running.
+
+Note!   The csc506web.sql is the databse of the application, for you to run the application you will import the database file to database.
+
+Note!   The most be a need of mysqlconnector of jar file. you all add it into library folder.
