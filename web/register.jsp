@@ -9,6 +9,8 @@
 
     
     <%
+
+	  <!-- // Insertion of user information into the database for hus registration-->
         
          if(request.getParameter("submit") !=null){
 
