@@ -177,6 +177,13 @@
 							<h4>Post Comment</h4>
 						</div>
 						<div class="form-body">
+							
+							<%
+        if(request.getParameter("submit") !=null){
+            
+         
+            String post = request.getParameter("post");
+             String name = request.getParameter("name");
                      
                     
              
