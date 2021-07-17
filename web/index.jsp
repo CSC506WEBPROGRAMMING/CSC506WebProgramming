@@ -130,7 +130,8 @@
                                                                                 PreparedStatement pst;
                                                                                 ResultSet rs;
 
-			    
+			     Class.forName("com.mysql.jdbc.Driver");
+                                                                                con = DriverManager.getConnection("jdbc:mysql://localhost/csc506web","root","");
 			    
                        
                     </div>
