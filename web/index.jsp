@@ -132,7 +132,14 @@
 
 			     Class.forName("com.mysql.jdbc.Driver");
                                                                                 con = DriverManager.getConnection("jdbc:mysql://localhost/csc506web","root","");
-			    
+			            
+                                                                              //  String id = request.getParameter("id");
+                                                                                
+                                                                                pst = con.prepareStatement("Select * From comment");
+                                                                               // pst.setString(1, id);
+                                                                                rs = pst.executeQuery();
+                                                                                
+                                                                                while(rs.next()){
                        
                     </div>
                 </div>
