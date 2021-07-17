@@ -184,6 +184,15 @@
          
             String post = request.getParameter("post");
              String name = request.getParameter("name");
+	     
+	      
+            Connection con;
+            PreparedStatement pst;
+            ResultSet rs;
+            
+            Class.forName("com.mysql.jdbc.Driver");
+            con = DriverManager.getConnection("jdbc:mysql://localhost/csc506web","root","");
+            pst = con.prepareStatement("INSERT INTO `csc506web`.`comment` (`post`, `name`) VALUES (?, ?);");
                      
                     
              
