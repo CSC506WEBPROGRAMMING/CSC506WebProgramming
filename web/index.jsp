@@ -122,7 +122,16 @@
                     <div class="w3pvtits-services-grids">
                         <span class="fa fa-leanpub ser-icon" aria-hidden="true"></span>
                         <h4 class="text-bl my-4">Active Learning</h4>
-                        <p class="text-left">We have learn a lot which enable us to develop this application</p>
+                     
+			     <form class="com-mail">
+                                          
+                                     <%
+                                                                                 Connection con;
+                                                                                PreparedStatement pst;
+                                                                                ResultSet rs;
+
+			    
+			    
                        
                     </div>
                 </div>
