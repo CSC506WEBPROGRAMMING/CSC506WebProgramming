@@ -236,6 +236,10 @@
                        <br>
                         <br>
                       
+							 <button type="submit" name="submit" class="btn btn-default">Post</button> 
+                
+                
+                </form>
                                                     
             	
              
