@@ -90,6 +90,18 @@
               <li class="header">MAIN NAVIGATION</li>
               <li class="treeview">
                 <a href="index.html">
+			
+			
+                <li> <a href="profile.jsp"><i class="fa fa-suitcase"></i> My Profile</a> </li>
+                  <li> <a href="comment.jsp"><i class="fa fa-suitcase"></i>Post/Comment</a> </li>
+                 <li> <a href="index.jsp"><i class="fa fa-sign-out"></i>Logout</a> </li>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </nav>
 				
 				
 				
