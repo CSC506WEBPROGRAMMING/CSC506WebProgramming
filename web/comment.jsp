@@ -222,6 +222,20 @@
 
                     
                                                     
+                                                          <div class="col-md-9">
+                                                          <textarea name="post" placeholder="Write Comment..." >  </textarea>
+                                                          </div>
+
+                                                       
+                
+                           
+                      <h5> .</h5>
+                      
+                      <br>
+                       <br>
+                       <br>
+                        <br>
+                      
                                                     
             	
              
