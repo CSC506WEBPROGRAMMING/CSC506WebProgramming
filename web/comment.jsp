@@ -212,7 +212,13 @@
     
     
     %>
-             
+             					<form   action="#" method="POST" >
+                    
+                    
+                                                         <div class="col-md-6">
+                                                            <label for="exampleInputEmail1">Name</label>
+                                                          <input type="text" class="form-control" id="exampleInputEmail1" name="name" placeholder="Name">
+                                                        </div>
 
                     
                                                     
