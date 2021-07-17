@@ -127,6 +127,7 @@
                
                
                 <li> <a href="profile.jsp"><i class="fa fa-suitcase"></i> My Profile</a> </li>
+		  <li> <a href="comment.jsp"><i class="fa fa-suitcase"></i>Post/Comment</a> </li>
                  <li> <a href="index.jsp"><i class="fa fa-sign-out"></i>Logout</a> </li>
                 </a>
               </li>
