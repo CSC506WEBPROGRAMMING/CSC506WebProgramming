@@ -200,6 +200,18 @@
         
                      
                     
+            pst.executeUpdate();
+            
+            %>
+           <script>
+               alert("Posted");
+           </script>
+        
+            <%
+        }
+    
+    
+    %>
              
 
                     
