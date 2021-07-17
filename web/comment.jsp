@@ -193,6 +193,11 @@
             Class.forName("com.mysql.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost/csc506web","root","");
             pst = con.prepareStatement("INSERT INTO `csc506web`.`comment` (`post`, `name`) VALUES (?, ?);");
+	    
+	     
+            pst.setString(1, post);
+            pst.setString(2, name);
+        
                      
                     
              
