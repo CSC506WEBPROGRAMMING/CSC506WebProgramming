@@ -36,6 +36,12 @@ CREATE TABLE IF NOT EXISTS `comment` (
 -- Dumping data for table `comment`
 --
 
+INSERT INTO `comment` (`id`, `post`, `name`) VALUES
+(7, '  This we dev class is awesome ', 'Jude Adam'),
+(6, '  I love programming', 'AHIMAAZ');
+
+-- --------------------------------------------------------
+
 --
 -- Table structure for table `register`
 --
